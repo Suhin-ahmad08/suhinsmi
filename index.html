@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Suhinsmi — personal portfolio and creative website." />
+  <title>Suhinsmi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#home" class="logo">suhinsmi<span>.</span></a>
+
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">WELCOME TO MY WEBSITE</p>
+        <h1>Hi, I’m <span>Suhinsmi.</span></h1>
+        <p class="hero-text">
+          I create thoughtful ideas, digital experiences, and projects that make an impact.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="button primary">View my work</a>
+          <a href="#contact" class="button secondary">Contact me</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="profile-orbit">
+          <div class="profile-circle">S</div>
+          <span class="orbit-dot dot-one"></span>
+          <span class="orbit-dot dot-two"></span>
+          <span class="orbit-dot dot-three"></span>
+        </div>
+        <p>Creative • Curious • Growing</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>A little about Suhinsmi</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            This is your personal corner of the internet. Use it to introduce yourself,
+            share your story, showcase your skills, or build your personal brand.
+          </p>
+          <p>
+            Replace this text with your own background, interests, goals, and what makes
+            you unique.
+          </p>
+        </div>
+
+        <div class="skills-card reveal">
+          <h3>What I do</h3>
+          <div class="skill-tags">
+            <span>Design</span>
+            <span>Creativity</span>
+            <span>Technology</span>
+            <span>Content</span>
+            <span>Learning</span>
+            <span>Ideas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">FEATURED WORK</p>
+        <h2>My projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-number">01</div>
+          <h3>Project One</h3>
+          <p>Add a short description of your first project here.</p>
+          <a href="#" aria-label="Open Project One">View project →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <h3>Project Two</h3>
+          <p>Add a short description of your second project here.</p>
+          <a href="#" aria-label="Open Project Two">View project →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <h3>Project Three</h3>
+          <p>Add a short description of your third project here.</p>
+          <a href="#" aria-label="Open Project Three">View project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">LET’S CONNECT</p>
+        <h2>Have an idea or opportunity?</h2>
+        <p>Send me a message and let’s create something great together.</p>
+        <a class="button primary" href="mailto:hello@example.com">Email me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Suhinsmi. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
